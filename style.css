@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+
+}
+
+a, button {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500 ;
+    font-size: 16px ;
+    color: yellowgreen;
+    text-decoration: azure;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10%;
+}
+.Logo  {cursor: pointer;}
+.nav-links {list-style: none;}
+.nav-links a{display: inline-block;
+padding: 0px 20px;}
+.nav-links a{transition: all 0.3s ease 0s;}
+.nav-links a:hover {color:rebeccapurple}
+button{
+    padding: 9 px 25px;
+    background-color:none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {background-color: blanchedalmond;}
+.read   {background-color: white;}
